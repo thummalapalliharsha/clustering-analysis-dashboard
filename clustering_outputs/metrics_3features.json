@@ -1,0 +1,122 @@
+{
+  "features": [
+    "BALANCE",
+    "PURCHASES",
+    "CASH_ADVANCE"
+  ],
+  "kmeans": {
+    "2": {
+      "inertia": 17925.466101534752,
+      "silhouette": 0.6184594826502706,
+      "calinski_harabasz": 4454.931819966986,
+      "davies_bouldin": 1.0396837881964713
+    },
+    "3": {
+      "inertia": 13686.916363905988,
+      "silhouette": 0.6184716275720673,
+      "calinski_harabasz": 4302.291145466948,
+      "davies_bouldin": 0.8874865578954747
+    },
+    "4": {
+      "inertia": 11334.639634817617,
+      "silhouette": 0.5568081984487644,
+      "calinski_harabasz": 4081.894625644017,
+      "davies_bouldin": 0.9133444553300483
+    },
+    "5": {
+      "inertia": 9305.746701517437,
+      "silhouette": 0.5617049153633853,
+      "calinski_harabasz": 4216.0341224665335,
+      "davies_bouldin": 0.850537906080007
+    },
+    "6": {
+      "inertia": 7874.748804509338,
+      "silhouette": 0.4758632135781119,
+      "calinski_harabasz": 4310.353148295689,
+      "davies_bouldin": 0.8898778933187109
+    },
+    "7": {
+      "inertia": 6947.710013842445,
+      "silhouette": 0.4741451171781307,
+      "calinski_harabasz": 4269.673147216649,
+      "davies_bouldin": 0.8545880885906618
+    },
+    "8": {
+      "inertia": 6119.489044368807,
+      "silhouette": 0.4611398432483557,
+      "calinski_harabasz": 4327.585022514502,
+      "davies_bouldin": 0.8420311465494044
+    },
+    "9": {
+      "inertia": 5481.837851004898,
+      "silhouette": 0.46259093980708194,
+      "calinski_harabasz": 4356.51927889382,
+      "davies_bouldin": 0.8719879142267057
+    },
+    "10": {
+      "inertia": 5007.037980750068,
+      "silhouette": 0.38402421512727386,
+      "calinski_harabasz": 4333.451310286205,
+      "davies_bouldin": 0.9060477578941668
+    }
+  },
+  "hierarchical": {
+    "2": {
+      "silhouette": 0.5271764317374199,
+      "calinski_harabasz": 3754.963704163458,
+      "davies_bouldin": 1.143159309648342
+    },
+    "3": {
+      "silhouette": 0.5275736538160639,
+      "calinski_harabasz": 3324.1968552244984,
+      "davies_bouldin": 0.8513032337418177
+    },
+    "4": {
+      "silhouette": 0.5037635735885844,
+      "calinski_harabasz": 3341.8069432079114,
+      "davies_bouldin": 0.9104744626442707
+    },
+    "5": {
+      "silhouette": 0.49667287859698833,
+      "calinski_harabasz": 3457.0922182670156,
+      "davies_bouldin": 0.9101422351694441
+    },
+    "6": {
+      "silhouette": 0.45187592726435216,
+      "calinski_harabasz": 3571.101409947854,
+      "davies_bouldin": 1.0052599844788446
+    },
+    "7": {
+      "silhouette": 0.454424719886638,
+      "calinski_harabasz": 3465.916659643249,
+      "davies_bouldin": 0.9763238310130562
+    },
+    "8": {
+      "silhouette": 0.4607431385037162,
+      "calinski_harabasz": 3432.095741774445,
+      "davies_bouldin": 0.9979138310520833
+    },
+    "9": {
+      "silhouette": 0.4416010143623002,
+      "calinski_harabasz": 3366.5261671888647,
+      "davies_bouldin": 0.96373702933084
+    },
+    "10": {
+      "silhouette": 0.4199637061716209,
+      "calinski_harabasz": 3356.1641073065066,
+      "davies_bouldin": 0.9291802028323193
+    }
+  },
+  "dbscan": {
+    "eps": 0.5,
+    "min_samples": 15,
+    "n_clusters": 2,
+    "n_noise": 415,
+    "noise_ratio": 0.04636871508379888,
+    "silhouette_core": 0.0
+  },
+  "pca_variance_2d": [
+    0.5046597505618525,
+    0.34432330269993106
+  ]
+}

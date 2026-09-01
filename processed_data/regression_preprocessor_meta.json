@@ -1,0 +1,122 @@
+{
+  "num_cols": [
+    "BALANCE",
+    "BALANCE_FREQUENCY",
+    "PURCHASES",
+    "ONEOFF_PURCHASES",
+    "INSTALLMENTS_PURCHASES",
+    "CASH_ADVANCE",
+    "PURCHASES_FREQUENCY",
+    "ONEOFF_PURCHASES_FREQUENCY",
+    "PURCHASES_INSTALLMENTS_FREQUENCY",
+    "CASH_ADVANCE_FREQUENCY",
+    "CASH_ADVANCE_TRX",
+    "PURCHASES_TRX",
+    "PAYMENTS",
+    "MINIMUM_PAYMENTS",
+    "TENURE",
+    "PAYMENT_TO_MIN_PAYMENT_RATIO",
+    "MONTHLY_AVG_PURCHASES",
+    "MONTHLY_AVG_CASH_ADVANCE",
+    "MONTHLY_AVG_PAYMENTS",
+    "CASH_ADVANCE_SHARE",
+    "PRC_FULL_PAYMENT"
+  ],
+  "cat_cols": [
+    "PURCHASE_TYPE"
+  ],
+  "method": "robust",
+  "params": {
+    "BALANCE": {
+      "center": 869.3972325,
+      "scale": 1953.98326025
+    },
+    "BALANCE_FREQUENCY": {
+      "center": 1.0,
+      "scale": 0.11111099999999996
+    },
+    "PURCHASES": {
+      "center": 354.895,
+      "scale": 1062.7924999999998
+    },
+    "ONEOFF_PURCHASES": {
+      "center": 35.955,
+      "scale": 564.75
+    },
+    "INSTALLMENTS_PURCHASES": {
+      "center": 89.71000000000001,
+      "scale": 462.84000000000003
+    },
+    "CASH_ADVANCE": {
+      "center": 0.0,
+      "scale": 1116.2577415
+    },
+    "PURCHASES_FREQUENCY": {
+      "center": 0.5,
+      "scale": 0.833334
+    },
+    "ONEOFF_PURCHASES_FREQUENCY": {
+      "center": 0.083333,
+      "scale": 0.3
+    },
+    "PURCHASES_INSTALLMENTS_FREQUENCY": {
+      "center": 0.166667,
+      "scale": 0.75
+    },
+    "CASH_ADVANCE_FREQUENCY": {
+      "center": 0.0,
+      "scale": 0.222222
+    },
+    "CASH_ADVANCE_TRX": {
+      "center": 0.0,
+      "scale": 4.0
+    },
+    "PURCHASES_TRX": {
+      "center": 7.0,
+      "scale": 16.0
+    },
+    "PAYMENTS": {
+      "center": 857.8868165,
+      "scale": 1527.44102475
+    },
+    "MINIMUM_PAYMENTS": {
+      "center": 312.343947,
+      "scale": 621.7293159999999
+    },
+    "TENURE": {
+      "center": 12.0,
+      "scale": 1.0
+    },
+    "PAYMENT_TO_MIN_PAYMENT_RATIO": {
+      "center": 2.0444731157190126,
+      "scale": 5.118467401967653
+    },
+    "MONTHLY_AVG_PURCHASES": {
+      "center": 31.240000000000002,
+      "scale": 92.58458333333333
+    },
+    "MONTHLY_AVG_CASH_ADVANCE": {
+      "center": 0.0,
+      "scale": 99.27726895833334
+    },
+    "MONTHLY_AVG_PAYMENTS": {
+      "center": 73.93223266666666,
+      "scale": 129.0645849375
+    },
+    "CASH_ADVANCE_SHARE": {
+      "center": 0.0,
+      "scale": 0.9562801137537135
+    },
+    "PRC_FULL_PAYMENT": {
+      "center": 0.0,
+      "scale": 0.142857
+    }
+  },
+  "cat_categories": {
+    "PURCHASE_TYPE": [
+      "Installments_Only",
+      "No_Purchases",
+      "One_Off_Only"
+    ]
+  }
+}

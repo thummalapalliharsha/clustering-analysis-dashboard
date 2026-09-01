@@ -1,0 +1,127 @@
+{
+  "num_cols": [
+    "BALANCE",
+    "BALANCE_FREQUENCY",
+    "PURCHASES",
+    "ONEOFF_PURCHASES",
+    "INSTALLMENTS_PURCHASES",
+    "CASH_ADVANCE",
+    "PURCHASES_FREQUENCY",
+    "ONEOFF_PURCHASES_FREQUENCY",
+    "PURCHASES_INSTALLMENTS_FREQUENCY",
+    "CASH_ADVANCE_FREQUENCY",
+    "CASH_ADVANCE_TRX",
+    "PURCHASES_TRX",
+    "PAYMENTS",
+    "MINIMUM_PAYMENTS",
+    "TENURE",
+    "PAYMENT_TO_MIN_PAYMENT_RATIO",
+    "MONTHLY_AVG_PURCHASES",
+    "MONTHLY_AVG_CASH_ADVANCE",
+    "MONTHLY_AVG_PAYMENTS",
+    "CASH_ADVANCE_SHARE",
+    "CREDIT_LIMIT",
+    "BALANCE_TO_LIMIT_RATIO"
+  ],
+  "cat_cols": [
+    "PURCHASE_TYPE"
+  ],
+  "method": "standard",
+  "params": {
+    "BALANCE": {
+      "center": 1564.5856704797318,
+      "scale": 2083.440680148262
+    },
+    "BALANCE_FREQUENCY": {
+      "center": 0.8773503654644111,
+      "scale": 0.23643525118213912
+    },
+    "PURCHASES": {
+      "center": 976.6117299712735,
+      "scale": 1985.2494453992294
+    },
+    "ONEOFF_PURCHASES": {
+      "center": 573.897893392914,
+      "scale": 1522.664926218459
+    },
+    "INSTALLMENTS_PURCHASES": {
+      "center": 402.9957756144271,
+      "scale": 886.2106889615841
+    },
+    "CASH_ADVANCE": {
+      "center": 977.2117583105648,
+      "scale": 2055.80510574976
+    },
+    "PURCHASES_FREQUENCY": {
+      "center": 0.4874299626556017,
+      "scale": 0.4015696026961639
+    },
+    "ONEOFF_PURCHASES_FREQUENCY": {
+      "center": 0.1995823857325247,
+      "scale": 0.29682227259345817
+    },
+    "PURCHASES_INSTALLMENTS_FREQUENCY": {
+      "center": 0.36068449249920204,
+      "scale": 0.3969197281611238
+    },
+    "CASH_ADVANCE_FREQUENCY": {
+      "center": 0.13687000750079797,
+      "scale": 0.20165941712275984
+    },
+    "CASH_ADVANCE_TRX": {
+      "center": 3.2598148739227577,
+      "scale": 6.614079897815972
+    },
+    "PURCHASES_TRX": {
+      "center": 14.440791573571657,
+      "scale": 24.32983820174708
+    },
+    "PAYMENTS": {
+      "center": 1730.3507900009574,
+      "scale": 2860.6800572083494
+    },
+    "MINIMUM_PAYMENTS": {
+      "center": 843.5478468887649,
+      "scale": 2368.264424609062
+    },
+    "TENURE": {
+      "center": 11.520906479412703,
+      "scale": 1.3341700703910895
+    },
+    "PAYMENT_TO_MIN_PAYMENT_RATIO": {
+      "center": 9.764492538061663,
+      "scale": 136.73014986727102
+    },
+    "MONTHLY_AVG_PURCHASES": {
+      "center": 83.81127827912061,
+      "scale": 167.86872602095107
+    },
+    "MONTHLY_AVG_CASH_ADVANCE": {
+      "center": 88.7522828714104,
+      "scale": 190.87069460456075
+    },
+    "MONTHLY_AVG_PAYMENTS": {
+      "center": 148.6016520213635,
+      "scale": 245.67532321643984
+    },
+    "CASH_ADVANCE_SHARE": {
+      "center": 0.3829876569495973,
+      "scale": 0.4444675695885053
+    },
+    "CREDIT_LIMIT": {
+      "center": 4464.140825748803,
+      "scale": 3642.3251067211813
+    },
+    "BALANCE_TO_LIMIT_RATIO": {
+      "center": 0.39113917682509547,
+      "scale": 0.35477863179608243
+    }
+  },
+  "cat_categories": {
+    "PURCHASE_TYPE": [
+      "Installments_Only",
+      "No_Purchases",
+      "One_Off_Only"
+    ]
+  }
+}
